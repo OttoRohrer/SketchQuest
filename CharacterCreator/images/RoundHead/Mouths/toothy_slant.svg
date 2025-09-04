@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="43.839264mm"
+   height="19.54542mm"
+   viewBox="0 0 43.839264 19.54542"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="drawing_Base.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   sodipodi:docname="toothy_slant.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:export-bgcolor="#ffffff00"
+     inkscape:zoom="1.0318359"
+     inkscape:cx="-314.488"
+     inkscape:cy="55.241344"
+     inkscape:window-width="1512"
+     inkscape:window-height="917"
+     inkscape:window-x="0"
+     inkscape:window-y="65"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="43.839264"
+       height="19.54542"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15-7">
+      <path
+         style="fill:#f9f9f9;stroke:#000000;stroke-width:0.649999;stroke-dasharray:none;stroke-opacity:1"
+         d="m 73.701084,110.07408 c -1.51449,8.32064 -10.428692,17.4202 25.670995,21.78145 z"
+         id="path16-6"
+         sodipodi:nodetypes="ccc" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14-9">
+      <path
+         style="fill:#f9f9f9;stroke:#000000;stroke-width:0.649999;stroke-dasharray:none;stroke-opacity:1"
+         d="m 143.52416,110.07408 c 1.51449,8.32064 10.42869,17.4202 -25.67099,21.78145 z"
+         id="path14-5"
+         sodipodi:nodetypes="ccc" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-188.47971,-37.310508)">
+    <g
+       id="g3"
+       transform="translate(158.45528,-17.950869)"
+       inkscape:export-filename="toothy_slant.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g27-9-9"
+         transform="matrix(0.79755171,0,0,0.79755171,-34.583972,-67.562409)"
+         style="stroke-width:0.875178;stroke-dasharray:none">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.875178;stroke-dasharray:none;stroke-opacity:1"
+           d="m 81.291461,158.69338 c 20.526929,17.41018 39.105369,24.68816 54.453619,15.16922"
+           id="path22-0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:#666666;stroke:#000000;stroke-width:0.875178;stroke-dasharray:none;stroke-opacity:1"
+           d="m 82.700589,159.66007 10.960087,-4.95465 -1.004895,12.45033 c -3.731512,-2.32224 -7.186981,-4.69179 -9.955192,-7.49568 z"
+           id="path27-2"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:#666666;stroke:#000000;stroke-width:0.875178;stroke-dasharray:none;stroke-opacity:1"
+           d="m 134.86444,173.82334 -8.75492,-8.24763 -3.09591,12.10106 c 4.99233,-0.15669 9.07863,-1.21824 11.85083,-3.85343 z"
+           id="path26-0"
+           sodipodi:nodetypes="cccc" />
+      </g>
+    </g>
+  </g>
+</svg>
