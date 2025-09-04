@@ -3,7 +3,7 @@
 img {
   position: absolute;
 }
-.selector {
+.selector { 
   width: 90px;
   height:90px;
   font-size: 20px;
@@ -29,17 +29,17 @@ img {
   display: grid;
   row-gap: 10px;
   grid-template-columns:  repeat(7, 102px);  
-  left: 400px;
-  top: 50px;
+  width: 704px;
   margin: 0 auto;
   position: relative;
 } 
 #changeButtons {
   display: grid;
-  /* background-color: gold; */
+  
   position: relative;
   gap: 10px;
-  grid-template-rows: repeat(10 , 90px);
+  grid-template-rows: repeat(6 , 90px);
   grid-template-columns: repeat(7 , 92px);
-  margin: 0 auto;
+  width: 704px;
+  margin: 0 auto  ;
 }

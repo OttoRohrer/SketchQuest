@@ -344,7 +344,6 @@ for (const button of buttonObjs) {
 function makeButton(buttonData, type) {
   const newButton = document.createElement("button");
   newButton.textContent = buttonData.filepath.split("_").join(" ");
-
   newButton.classList.add("selector");
   buttonContainer.appendChild(newButton);
   newButton.addEventListener("click", () => {
