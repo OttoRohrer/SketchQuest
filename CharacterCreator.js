@@ -207,6 +207,13 @@ const json = `{
   }
 }`;
 
+fetch(
+  "https://raw.githubusercontent.com/OttoRohrer/SketchQuest/main/Headsets.json"
+)
+  .then((response) => response.json())
+  .then((data) => {
+    console.log(data);
+  });
 const data = JSON.parse(json);
 const changingButtons = document.querySelector("#changeButtons");
 let type = "ears";
