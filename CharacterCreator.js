@@ -55,12 +55,12 @@ fetch(
     }
     const characterData = {
       head: data.headsets.round.head,
-      ears: data.headsets.round.ears.largeWebbed,
-      eyes: data.headsets.round.eyes.madPointed,
-      mouth: data.headsets.round.mouth.toothySlant,
-      hair: data.headsets.round.hair.halfBald,
+      ears: data.headsets.round.ears.roundMedium,
+      eyes: data.headsets.round.eyes.roundMedium,
+      mouth: data.headsets.round.mouth.smileSlant,
+      hair: data.headsets.round.hair.shortSlanted,
       eyebrows: data.headsets.round.eyebrows.madPointed,
-      noses: data.headsets.round.noses.largePointed,
+      noses: data.headsets.round.noses.roundLong,
     };
 
     const buttonContainer = document.querySelector("#buttons");
