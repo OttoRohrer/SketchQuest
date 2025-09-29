@@ -94,7 +94,7 @@ fetch(
       eyes.src = `images/RoundHead/Eyes/${characterData.eyes.filepath}.svg`;
       drawingRect.appendChild(eyes);
       const mouth = document.createElement("img");
-      mouth.src = `images/RoundHead/Mouths/${characterData.mouth.filepath}.svg`;
+      mouth.src = `images/RoundHead/Mouth/${characterData.mouth.filepath}.svg`;
       drawingRect.appendChild(mouth);
       const eyebrows = document.createElement("img");
       eyebrows.src = `images/RoundHead/Eyebrows/${characterData.eyebrows.filepath}.svg`;
@@ -138,6 +138,9 @@ fetch(
     }
 
     function makeButton(buttonData, type) {
+      if (type === "mouth") {
+        console.log(buttonData);
+      }
       const newButton = document.createElement("button");
       newButton.textContent = buttonData.filepath.split("_").join(" ");
       newButton.classList.add("selector");
