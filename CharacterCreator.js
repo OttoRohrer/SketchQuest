@@ -136,6 +136,7 @@ fetch(
     for (const button of buttonObjs) {
       makeButton(button, type);
     }
+
     function makeButton(buttonData, type) {
       const newButton = document.createElement("button");
       newButton.textContent = buttonData.filepath.split("_").join(" ");
@@ -159,5 +160,6 @@ fetch(
         characterData[type] = data.headsets.round[type][name];
         drawRoundHead(500, 390, 500, 500);
       });
+      newButton.style.backgroundImage = `url(images/RoundHead/${type}/${buttonData.filepath}.svg)`;
     }
   });
