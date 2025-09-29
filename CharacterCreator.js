@@ -138,9 +138,6 @@ fetch(
     }
 
     function makeButton(buttonData, type) {
-      if (type === "mouth") {
-        console.log(buttonData);
-      }
       const newButton = document.createElement("button");
       newButton.textContent = buttonData.filepath.split("_").join(" ");
       newButton.classList.add("selector");
