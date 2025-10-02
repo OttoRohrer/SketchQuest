@@ -3,6 +3,28 @@
 img {
   position: absolute;
 }
+label {
+  font-family: Chalkduster;
+}
+form {
+  width: 320px;
+  font-size:100px;
+  margin: 100px auto; 
+  button {
+    width: 320px;
+    height: 70px;
+    margin: 50px auto;
+    cursor: pointer;
+    font-family: Chalkduster;
+    font-size: 50px;
+  }
+}
+input {
+  width: 320px;
+  height: 50px;
+  font-family: Chalkduster;
+  font-size: 60px;
+}
 .selector { 
   width: 90px;
   height:90px;
@@ -24,6 +46,7 @@ img {
 .changer {
   border-radius: 100%;
   cursor: pointer;
+  font-family: Chalkduster; 
 
 }
 .selected {
@@ -39,7 +62,7 @@ img {
 } 
 #changeButtons {
   display: grid;
-  
+   font-family: Chalkduster;
   position: relative;
   gap: 10px;
   grid-template-rows: repeat(6 , 90px);
