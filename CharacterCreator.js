@@ -7,18 +7,33 @@ fetch(
     let type = "ears";
     let buttonObjs = Object.values(data.headsets.round[type]);
     const nameForm = document.querySelector("#nameForm");
-    const name = {
+    let name = {
       value: document.querySelector("#name"),
       submitButton: document.querySelector("#nameSubmit"),
     };
     name.submitButton.addEventListener("click", (e) => {
       e.preventDefault();
+      if (name.value.value === "") {
+        return;
+      }
       nameForm.innerHTML = `
         <label for = "name">Name:</label><br>
-        <input type="text" value = ${name.value.value} id="name">
+        <input type="text" value = "${name.value.value}" id="name">
         <button id = "nameConfirm">Confirm</button>
       `;
-      console.log(nameForm);
+      name = {
+        value: document.querySelector("#name"),
+        confirmButton: document.querySelector("#nameConfirm"),
+      };
+      name.confirmButton.addEventListener("click", (e) => {
+        e.preventDefault();
+        const p = document.createElement("p");
+        const value = name.value;
+        p.textContent = value.value;
+        nameForm.removeChild(name.value);
+        nameForm.removeChild(name.confirmButton);
+        nameForm.appendChild(p);
+      });
     });
     const changers = [
       {

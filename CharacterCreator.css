@@ -6,6 +6,11 @@ img {
 label {
   font-family: Chalkduster;
 }
+p {
+  font-family: Chalkduster;
+  top: -130px;
+  position: relative;
+}
 form {
   width: 320px;
   font-size:100px;
