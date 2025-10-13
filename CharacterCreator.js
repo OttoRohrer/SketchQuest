@@ -11,9 +11,13 @@ fetch(
       value: document.querySelector("#name"),
       submitButton: document.querySelector("#nameSubmit"),
     };
+    const maxCharacters = 20;
     name.submitButton.addEventListener("click", (e) => {
       e.preventDefault();
       if (name.value.value === "") {
+        return;
+      } else if (name.value.value.length > maxCharacters) {
+        alert(`Over ${maxCharacters} characters.`);
         return;
       }
       nameForm.innerHTML = `
@@ -27,6 +31,10 @@ fetch(
       };
       name.confirmButton.addEventListener("click", (e) => {
         e.preventDefault();
+        if (name.value.value.length > maxCharacters) {
+          alert(`Over ${maxCharacters} characters.`);
+          return;
+        }
         const p = document.createElement("p");
         const value = name.value;
         p.textContent = value.value;
