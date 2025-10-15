@@ -12,20 +12,36 @@ p {
   position: relative;
 }
 form {
-  width: 320px;
-  font-size:100px;
-  margin: 100px auto; 
   button {
     width: 320px;
     height: 70px;
-    margin: 50px auto;
+    margin: 50px auto; 
     cursor: pointer;
     font-family: Chalkduster;
     font-size: 50px;
   }
 }
-input {
+#nameForm {
   width: 320px;
+  font-size:100px;
+  margin: 100px auto; 
+}
+#descriptionForm {  
+  width: 600px;
+  margin: 0 auto;
+  font-size: 100px;
+  display: flex;
+  flex-direction: column;
+}
+textarea {
+  width: 400px;
+  height: 200px;
+  font-family: Chalkduster;
+  font-size: 20px;
+  margin: 0 auto;
+}
+input {
+  width: 350px;
   height: 50px;
   font-family: Chalkduster;
   font-size: 60px;
